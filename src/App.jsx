@@ -9,9 +9,6 @@ function App() {
     <div className="App">
       <Header />
 
-      {/* About Me Section */}
-      <AboutMe />
-
       {/* What is React Section */}
       <Section title="What is React?">
         <p>
@@ -45,10 +42,14 @@ function App() {
           link="https://beta.reactjs.org/"
         />
       </Section>
+
+      {/* About Me Section - moved to bottom */}
+      <AboutMe />
     </div>
   );
 }
 
 export default App;
+
 
 
