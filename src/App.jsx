@@ -1,32 +1,32 @@
 import React from 'react';
-import Greeting from './components/Greeting';
+import Header from './components/Header';
 import Section from './components/Section';
+import HelpfulResource from './components/HelpfulResource';
 
 function App() {
   return (
-    <div>
-      <Greeting />
+    <div className="App">
+      <Header />
 
-      <Section title="What is react?">
-        <p>
-          React is a JavaScript library for building fast and interactive user interfaces using
-          reusable components. It makes front-end development more efficient through its use
-          of a virtual DOM and declarative UI.
-        </p>
-      </Section>
-
-      <Section title="Benefits of react">
-        <ul>
-          <li>Reusable components</li>
-          <li>Fast rendering with virtual DOM</li>
-          <li>Strong community support</li>
-          <li>Easy to learn and integrate</li>
-          <li>Great ecosystem of tools and libraries</li>
-        </ul>
+      {/* Helpful Resources Section */}
+      <Section title="Helpful resources">
+        <HelpfulResource
+          label="React Official Docs"
+          link="https://reactjs.org/docs/getting-started.html"
+        />
+        <HelpfulResource
+          label="ReactJS Tutorial - freeCodeCamp"
+          link="https://www.youtube.com/watch?v=bMknfKXIFA8"
+        />
+        <HelpfulResource
+          label="React Docs Beta (New)"
+          link="https://beta.reactjs.org/"
+        />
       </Section>
     </div>
   );
 }
 
 export default App;
+
 
