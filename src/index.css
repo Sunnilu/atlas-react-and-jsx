@@ -74,6 +74,7 @@ li::before {
   height: 20px;
   margin-right: 1rem;
 }
+
 ul {
   padding: 0;
   margin: 0;
@@ -146,4 +147,27 @@ footer li:first-child {
 footer a {
   color: var(--offwhite);
   text-decoration: none;
+}
+
+/* ✅ New section for Greeting + SocialLinks layout */
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 12px;
+}
+
+.social-links img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
 }
