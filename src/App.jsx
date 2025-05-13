@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Section from './components/Section';
 import AboutMe from './components/AboutMe';
 import HelpfulResource from './components/HelpfulResource';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -43,8 +44,11 @@ function App() {
         />
       </Section>
 
-      {/* About Me Section - moved to bottom */}
+      {/* About Me Section */}
       <AboutMe />
+
+      {/* Footer Section */}
+      <Footer />
     </div>
   );
 }
