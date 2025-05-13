@@ -2,6 +2,7 @@ import React from 'react';
 import linkedinIcon from '../assets/linkedin.svg';
 import githubIcon from '../assets/github.svg';
 
+
 function SocialLinks() {
   return (
     <div className="social-links">
