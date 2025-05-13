@@ -13,7 +13,7 @@ function SocialLinks() {
         <img src={linkedinIcon} alt="LinkedIn Profile" />
       </a>
       <a
-        href="https://github.com/Sunnilu/your-repo-name-here"
+        href="https://github.com/Sunnilu/atlas-react-and-jsx.git"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -24,3 +24,4 @@ function SocialLinks() {
 }
 
 export default SocialLinks;
+
